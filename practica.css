@@ -1,0 +1,42 @@
+body{
+    background-color: #f1f1f1;
+    text-align: center;
+}
+main{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.matris1{
+    display: grid;
+    height: 200px;
+    width: 400px;
+    padding: 10;
+    margin: 20px;
+    background-color: #53e26dac;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.matris1 input{
+    height: 20px;
+    width: 50px;
+    margin: 10px ;
+    padding: 10px ;
+    
+}
+.num{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.301);
+    color:#f1f1f1;
+    border: none;
+}
+.num:hover{
+    box-shadow: 4px 4px #573dd7ac; 
+    transition: ease-in 0.2s;
+    transition: ease-out 0.2s;
+    
+}
+.num:focus{
+    background-color: #8da28eac;
+}
